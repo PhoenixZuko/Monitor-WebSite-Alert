@@ -31,6 +31,25 @@ To send WhatsApp messages, you need a Twilio account. Twilio provides **$5 - $15
    ```bash
    git clone https://github.com/user/funding-monitor.git
    cd funding-monitor
+Testing Scripts
+Before running the main program, you can use the following test scripts to verify that Twilio and Selenium are correctly installed and configured.
+
+  test_Twilio.py
+This script checks if your Twilio credentials are correctly set up and if messages can be sent successfully via Twilio WhatsApp.
+How to use:
+python3 test_Twilio.py
+
+If everything is working correctly, you should receive a WhatsApp message at the configured phone number.
+
+   test_Selenium.py
+This script verifies that Selenium is correctly installed and that the browser automation setup is working.
+
+ How to use:
+
+python test_Selenium.py
+If Selenium is properly configured, the script should open a browser window, navigate to a test website, and close the browser.
+
+
 
    ##  Author
 **Andrei Sorin Stefan**  
