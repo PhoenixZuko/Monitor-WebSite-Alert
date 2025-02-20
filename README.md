@@ -8,7 +8,7 @@ This script was developed for a client who wanted to receive WhatsApp notificati
 - Monitors funding availability in real-time.
 - Logs all detected changes in `alerts.log`.
 - Sends WhatsApp alerts when funding amounts change.
-- Configurable via `.env`.
+- Configurable via `settings.ini`.
 - Successfully tested to work without crashes or blocking.
 
 ##  Twilio Account Required  
