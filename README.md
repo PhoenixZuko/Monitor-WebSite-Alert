@@ -37,6 +37,7 @@ Before running the main program, you can use the following test scripts to verif
   test_Twilio.py
 This script checks if your Twilio credentials are correctly set up and if messages can be sent successfully via Twilio WhatsApp.
 How to use:
+``bash
 python3 test_Twilio.py
 
 If everything is working correctly, you should receive a WhatsApp message at the configured phone number.
